@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "shaolin-wushu-center": {
+    "shaolin-wushu-center-stl": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/shaolin-wushu-center",
+            "outputPath": "dist/shaolin-wushu-center-stl",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "shaolin-wushu-center:build:production"
+              "browserTarget": "shaolin-wushu-center-stl:build:production"
             },
             "development": {
-              "browserTarget": "shaolin-wushu-center:build:development"
+              "browserTarget": "shaolin-wushu-center-stl:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "shaolin-wushu-center:build"
+            "browserTarget": "shaolin-wushu-center-stl:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "shaolin-wushu-center"
+  "defaultProject": "shaolin-wushu-center-stl"
 }
