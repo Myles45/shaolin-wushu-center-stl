@@ -1,7 +1,30 @@
-nav{ background-color: blue;
-margin: 0px;
-padding: 0px;
+nav{ 
+    position:sticky;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: rgb(194, 47, 47);
+    display:inline-flex;
+    z-index: 5;
 }
 
-nav button{background-color: black;
-color: aliceblue;}
+.logo-image{
+    position:relative;
+    width: 70px;
+    height: 70px;
+    
+}
+
+nav button{
+    position:relative;
+    top: auto;
+    bottom: auto;
+   margin: auto 0;
+    background-color: rgb(20, 19, 19);
+    color: aliceblue;
+    height: 50px;
+    width: 8em;
+   border-radius: 30px;
+   
+}
+
