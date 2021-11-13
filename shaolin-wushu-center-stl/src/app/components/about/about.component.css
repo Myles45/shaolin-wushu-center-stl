@@ -1,0 +1,21 @@
+.about-comp {
+    position: relative;
+    width: 100%;
+}
+
+
+.about-text {
+    position: relative; 
+    background-color: chartreuse;
+    width: 50vw;
+    height: 100vh;
+    float: left;
+}
+
+.about-pics {
+    position: relative;  
+    background-color: blue;
+    width: 50vw;
+    height: 100vh;
+    float: right;
+}

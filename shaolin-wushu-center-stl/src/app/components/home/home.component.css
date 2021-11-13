@@ -1,0 +1,21 @@
+.home-comp {
+    width: 100%;
+    
+}
+
+
+.home-text {
+    position: relative;
+    background-color: chartreuse;
+    width: 50vw;
+    height: 100vh;
+    float: left;
+}
+
+.home-pics {
+    position: relative;  
+    background-color: blue;
+    width: 50vw;
+    height: 100vh;
+    float: right;
+}

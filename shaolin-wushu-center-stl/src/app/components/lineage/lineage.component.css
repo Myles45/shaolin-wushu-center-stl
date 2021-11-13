@@ -1,0 +1,33 @@
+.lineage-comp {
+    position: relative;
+    width: 100%;
+    
+    height: auto;
+    
+    
+   
+}
+
+
+.lineage-text {
+    position: relative;
+    background-color: chartreuse;
+    text-align: center;
+    width: 50vw;
+    float: left;
+    display: block;
+    
+    
+    
+}
+
+.lineage-img {
+    position: fixed;  
+    background-color: blue;
+    width: 50vw;
+    height: 100vh;
+    float: right;
+    bottom: 0px;
+    right: 0px;
+    top: 70px;
+}
