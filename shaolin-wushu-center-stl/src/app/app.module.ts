@@ -11,6 +11,7 @@ import { InstructorComponent } from './components/instructor/instructor.componen
 import { LionDanceComponent } from './components/lion-dance/lion-dance.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
+import { BenefitsValuesComponent } from './components/benefits-values/benefits-values.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutComponent } from './components/about/about.component';
     InstructorComponent,
     LionDanceComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    BenefitsValuesComponent
   ],
   imports: [
     BrowserModule,

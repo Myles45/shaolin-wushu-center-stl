@@ -1,0 +1,34 @@
+.benefits-values-comp{
+
+    background-color: #121212;
+}
+
+li{
+    list-style: none;
+    background-color: brown;
+    border-radius:3em;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+#benefits{
+    position: relative;
+    background-color: #313235;
+    color: rgb(243, 235, 235);
+    border-radius:3em;
+    max-width: 50vw;
+    height: 100vh;
+    float: left;
+    padding: 1rem;
+    ;
+}
+
+#values{
+    position: relative;
+    background-color: #313235;
+    color: rgb(243, 235, 235);
+    border-radius:3em;
+    max-width: 50vw;
+    height: 100vh;
+    float: right;
+    padding: 1rem;
+}

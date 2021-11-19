@@ -1,20 +1,21 @@
 .lion-dance-comp {
-    width: 100%;
+    background-color: #121212;
 }
 
 
 .lion-dance-text {
     position: relative;
-    background-color: chartreuse;
+    background-color: #313235;
+    color: rgb(243, 235, 235);
     width: 50vw;
+    border-radius:3em;
     float: left;
-    
 }
 
 .lion-dance-pics {
     position: relative;  
-    background-color: blue;
+      background-color: #121212;
     width: 50vw;
-    height: 100%;
+    height: 100vh;
     float: right;
 }

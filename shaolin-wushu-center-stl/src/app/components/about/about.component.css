@@ -1,21 +1,25 @@
 .about-comp {
     position: relative;
     width: 100%;
+    background-color: #121212;
 }
 
 
 .about-text {
     position: relative; 
-    background-color: chartreuse;
+    background-color: #313235;
+    color: rgb(243, 235, 235);
+    border-radius:3em;
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
     float: left;
+    padding: 1rem;
 }
 
 .about-pics {
     position: relative;  
     background-color: blue;
-    width: 50vw;
+    width: 46vw;
     height: 100vh;
     float: right;
 }

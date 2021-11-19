@@ -6,7 +6,7 @@ html{
 }
 body{
     position: relative;
-    background-color: black;
+    background-color: #121212;
     width: 100vw;
     margin: 0px;
     padding: 0px;
@@ -17,10 +17,14 @@ body{
 
 .view-section{
     position:relative;
-    background-color: dimgrey;
+    background-color: #121212;
     width: 100vw; 
     top: -4px;
     height:auto;
     overflow: hidden;
+    text-indent: 3em;
+    text-align: center;
+    padding:0.4rem;
     
 }
+
